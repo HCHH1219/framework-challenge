@@ -1,9 +1,10 @@
 html {
-    background: #e4aaff;
+    background: #a477b9;
 }
 
 h1 {
-    border-bottom: 1px dotted #ccc;
+    margin-left: 40px;
+    border-bottom: 2px dotted #ffffff;
 }
 
 body {
