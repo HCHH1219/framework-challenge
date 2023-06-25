@@ -4,8 +4,8 @@ html {
 
 .head{
     margin-top: 50px;
-    margin-left: 100px;
-    width: 30%;
+    margin-left: 50px;
+    width: 50%;
     padding: 10px;
 }
 
@@ -33,6 +33,5 @@ body {
 }
 
 .card-body {
-    border-bottom: 3px dotted #242424;
     margin-top: 30px;
 }
