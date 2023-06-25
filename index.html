@@ -5,31 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>VR Experience</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <head>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <section class="head">
       <h1>VR Experience</h1>
-    </head>
-    <script src="js/bootstrap.js"></script>
+    </section>
+    <section class="description">
+      <p>Since the company was founded in 2013, we have been committed to giving users the best VR viewing experience. After continuous technological innovation and research and development, our product experience has been at the leading level in the industry.</p>
+    </section>
 
     <div class="row">
-      <div class="col">
-        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Contact Us</h5>
+            <p class="card-text">If you have any comments or cooperation intentions, please contact us!</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
       </div>
-      <div class="col">
-        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">More Information</h5>
+            <p class="card-text">Follow our the latest developments of our products or technologies!</p>
+            <a href="#" class="btn btn-primary">More</a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="input-group mb-3">
-      <span class="input-group-text" id="basic-addon1">Your Email</span>
-      <input type="text" class="form-control" placeholder="type here" aria-label="type here" aria-describedby="basic-addon1">
-    </div>
-    
-    <div class="input-group">
-      <span class="input-group-text">Anything else to say?</span>
-      <textarea class="form-control" aria-label="With textarea"></textarea>
-    </div>
   </body>
 </html>
