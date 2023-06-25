@@ -1,22 +1,25 @@
 html {
-    background: #fdff8e;
+    background: #db8eff;
 }
 
 .head{
-    background: #fdff8e;
+    background: #db8eff;
     Position: sticky;
     top: 0;
 }
 
 h1 {
-    margin-left: 40px;
     border-bottom: 6px solid #242424;
 }
 
 body {
     font-family:Arial, Helvetica, sans-serif;
-    margin: 40px;
-    padding: 30px;
+    margin: 20px;
+    padding: 20px;
     color: #000000; 
-    background: #fdff8e;
+    background: #db8eff;
+}
+
+.card text-bg-dark {
+    border-bottom: 3px solid #242424;
 }
