@@ -3,6 +3,7 @@ html {
 }
 
 .head{
+    font-size: 300%;
     margin-top: 50px;
     margin-left: 50px;
     width: 50%;
@@ -28,11 +29,11 @@ body {
 }
 
 .card-title{
-    font-size: 300%;
+    font-size: 200%;
 }
 
 .card-text0 {
-    font-size: 200%;
+    font-size: 140%;
     margin-top: 20px;
     margin-right: 100px;
     width: 40%;
