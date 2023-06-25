@@ -27,7 +27,12 @@ body {
     border-bottom: 3px solid #242424;
 }
 
+.card-title{
+    font-size: large;
+}
+
 .card-text0 {
+    font-size: medium;
     margin-top: 20px;
     margin-right: 100px;
     width: 40%;
