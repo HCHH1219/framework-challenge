@@ -1,5 +1,11 @@
 html {
-    background: #a477b9;
+    background: #fdff8e;
+}
+
+.head{
+    background: #fdff8e;
+    Position: sticky;
+    top: 0;
 }
 
 h1 {
