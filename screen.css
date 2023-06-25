@@ -3,9 +3,9 @@ html {
 }
 
 .head{
-    background: #db8eff;
-    Position: sticky;
-    top: 0;
+    margin-top: 50px;
+    border: 3px dotted #000000;
+    padding: 10px;
 }
 
 h1 {
@@ -22,4 +22,8 @@ body {
 
 .card text-bg-dark {
     border-bottom: 3px solid #242424;
+}
+
+.card-text0 {
+
 }
