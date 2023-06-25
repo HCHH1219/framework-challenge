@@ -28,11 +28,11 @@ body {
 }
 
 .card-title{
-    font-size: large;
+    font-size: 300%;
 }
 
 .card-text0 {
-    font-size: medium;
+    font-size: 200%;
     margin-top: 20px;
     margin-right: 100px;
     width: 40%;
